@@ -2,6 +2,8 @@
 
 FirmSignal is a law-firm prospecting dashboard that uses public signals to identify firms that may benefit from front-desk, intake, scheduling, and CRM automation.
 
+Live app: https://antispam2tor.github.io/firmsignal/
+
 ## What it does
 
 - Finds nearby law firms through OpenStreetMap and Nominatim.
@@ -23,7 +25,7 @@ bash scripts/build.sh
 node scripts/validate-artifact.mjs
 ```
 
-The worker source is in `worker/index.js`. The build output is generated under `dist/`.
+The worker source is in `worker/index.js`. The GitHub Pages frontend is generated in `docs/`, while the Worker build output is generated under `dist/`.
 
 ## Data sources
 
